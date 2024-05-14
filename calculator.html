@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Calculator</title>
+     
+<style>
+    button{
+        background-color: darkgray;
+        color:aliceblue;
+        border-style:solid;
+        border-color: black;
+
+
+    }
+</style>
+
+
+
+    </head>
+
+<body>
+
+<p>Calculator</p>
+
+<button title="one" class="one" onclick="
+
+calculation += '1';
+console.log(calculation)
+
+">
+    1
+</button>
+
+<button title="two" class="two" onclick="
+
+calculation = calculation + '2';
+console.log(calculation);
+
+">
+    2
+</button>
+
+<button title="three" class="three" onclick="
+
+calculation = calculation + '3';
+console.log(calculation);
+
+">
+    3
+</button>
+
+<button title="add" class="add" onclick="
+
+calculation = calculation + ' + ';
+console.log(calculation);
+
+
+">
+    +
+</button>
+
+<p>
+
+    <button title="four" class="four" onclick="
+    
+    calculation = calculation + '4';
+    console.log(calculation);
+
+    ">
+        4
+    </button>
+
+    <button title="five" class="five" onclick="
+    
+    calculation = calculation + '5';
+    console.log(calculation);
+    
+    ">
+        5
+    </button>
+    
+    <button title="six" class="six" onclick="
+    
+    calculation = calculatiom + '6';
+    console.log(calculation);
+    
+    
+    ">
+        6
+    </button>
+
+    <button title="subract" class="subract" onclick="
+    
+    calculation = calculation + '-';
+    
+    
+    ">
+        -
+    </button>
+
+</p>
+
+<p>
+
+    <button title="seven" class="seven" onclick="">
+        7
+    </button>
+
+    <button title="eight" class="eight" onclick="">
+        8
+    </button>
+
+    <button title="nine" class="nine" onclick="">
+        9
+    </button>
+
+    <button title="times" class="times" onclick="">
+        *
+    </button>
+    
+</p>
+
+<p>
+
+    <button title="zero" class="zero" onclick="">
+        0
+    </button>
+
+    <button title="decimal" class="decimal" onclick="">
+        .
+    </button>
+
+    <button title="equal" class="equal" onclick="
+    calculation = eval(calculation);
+    console.log(calculation);
+    
+    ">
+        =
+    </button>
+
+    <button title="equal" class="equal" onclick="">
+        /
+    </button>
+    
+</p>
+
+<button>
+    Clear
+</button>
+
+    <script>
+        var calculation = '';
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </html>
